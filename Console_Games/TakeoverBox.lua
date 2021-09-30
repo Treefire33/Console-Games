@@ -81,8 +81,9 @@ for i = 1, nGame.bS*nGame.bS, 1 do
         bots = bots + 1
     end
 end
-io.write("Current score is: \n You: "..tostring(yours).."\n Bot: "..tostring(bots))
+io.write("Current score is: \n You: "..tostring(yours).."\n Bot: "..tostring(bots).."\n")
 
+io.write("Replay? y/n \n")
 i = io.read()
 if i == "y" then
   goto GameLoop
