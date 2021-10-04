@@ -1,2 +1,2 @@
-# LuaGames
-Games made in Lua
+# Console Games
+Games that are played in a console.
